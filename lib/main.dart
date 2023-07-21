@@ -39,22 +39,28 @@ class MyApp extends StatelessWidget {
 
   ThemeData dataTheme() {
     return ThemeData(
+      splashColor: Colors.transparent,
+      highlightColor: Colors.transparent,
+      useMaterial3: true,
       primaryColor: Colors.indigo,
-      appBarTheme: const AppBarTheme(
+      appBarTheme: AppBarTheme(
+        foregroundColor: Colors.grey.shade200,
         backgroundColor: Colors.indigo,
         elevation: 0,
         centerTitle: true,
       ),
-      floatingActionButtonTheme: const FloatingActionButtonThemeData(
-          backgroundColor: Colors.indigo, elevation: 5, highlightElevation: 0),
+      floatingActionButtonTheme: FloatingActionButtonThemeData(
+        backgroundColor: Colors.indigo,
+        elevation: 5,
+        highlightElevation: 0,
+        foregroundColor: Colors.grey.shade200,
+      ),
       bottomNavigationBarTheme: BottomNavigationBarThemeData(
-        backgroundColor: Colors.grey.shade200,
         showUnselectedLabels: false,
+        backgroundColor: Colors.grey.shade200,
         selectedItemColor: Colors.grey.shade900,
         unselectedItemColor: Colors.grey.shade600,
       ),
     );
   }
 }
-
-//! ULTIMO VIDEO VISTO: 191
