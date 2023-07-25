@@ -2,7 +2,7 @@
 _An app that scans a qr code for locations and websites._
 
 # Funcionality ⚙️
-_For this app I implement a SQLite database for the data persistence and I integrate the Google Maps API to show the results directly inside QR Scanner. For scanned urls, it will use the device's default browser._
+_For this app I implement a SQLite database for the data persistence and I integrate the Google Maps API to show the results inside QR Scanner. For scanned urls, it will use the device's default browser._
 _It's designed using material 3 and it was builded with Flutter._
 
 # Screenshots 🌆
